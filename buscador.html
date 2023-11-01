@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buscador de Cartas</title>
+    <!-- Enlaces a Bootstrap y archivos CSS personalizados -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="buscador.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="logo">YU-GI-OH!</a>
+            <input type="checkbox" id="menu"  />
+            <label for="menu">
+                <img src="Imagenes - copia/imgmenu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="buscador.html">Buscador de cartas</a></li>
+                    <li><a href="https://www.yugioh-card.com/lat-am/products/structure_deck.html">Estructuras</a></li>
+                    <li><a href="personajes.html">Personajes Iconicos</a></li>
+                    <li><a href="cartasraras.html">Cartas</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1 class="titulo1">YU-GI-OH!<br>Duelo de monstruos</h1>
+                <p>
+                    Yu-Gi-Oh! Juego de Cartas Coleccionables en español (también conocido con su nombre en inglés como Yu-Gi-Oh! Trading Card Game y usualmente con la abreviatura TCG,<br> 
+                    adaptada al español como JCC) es parte del juego de cartas basado en el fenómeno manga y anime de Yu-Gi-Oh!, siendo este producido por Konami como su dueño actual.<br> Acorde con el
+                     "Libro de los Récord Guinness" es el juego de cartas más vendido de todos los tiempos, sobrepasando las 22.000 millones de cartas vendidas desde agosto del 2009.
+                </p>
+
+            </div>
+        </div>
+    </header>
+    <br>
+    <br><br>
+    <div class="cuadro">
+    <div class="container">
+        <h1>Buscador de cartas</h1>
+        <div class="form-group">
+            <label for="tipo">Tipo:</label>
+            <input type="text" id="tipo" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="rareza">Rareza:</label>
+            <input type="text" id="rareza" class="form-control">
+        </div>
+        <button id="buscarBtn" class="btn btn-primary">Buscar Carta</button>
+    </div>
+    <div id="resultados" class="container mt-4">
+        <!-- Aquí se mostrarán los resultados de la búsqueda -->
+    </div>
+</div>
+<main>
+
+</main>
+    <script src="buscador.js"></script>
+</body>
+ <footer>
+        <p>&copy; 2023 Alexander Müller</p>
+    </footer>
+</html>
